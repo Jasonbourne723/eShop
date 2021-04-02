@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>dotnet.Test</name>
+    </assembly>
+    <members>
+        <member name="P:dotnet.Test.Controllers.student.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:dotnet.Test.Controllers.student.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+    </members>
+</doc>
