@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.filenesting.json = .filenesting.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet.ConsoleTest", "src\Tests\dotnet.Console.Test\dotnet.ConsoleTest.csproj", "{C05A4219-AEE6-4B35-B064-CA076AFDE371}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{DB55E7BA-F029-4496-BD3E-E4ED7222F6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB55E7BA-F029-4496-BD3E-E4ED7222F6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB55E7BA-F029-4496-BD3E-E4ED7222F6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05A4219-AEE6-4B35-B064-CA076AFDE371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05A4219-AEE6-4B35-B064-CA076AFDE371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05A4219-AEE6-4B35-B064-CA076AFDE371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05A4219-AEE6-4B35-B064-CA076AFDE371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

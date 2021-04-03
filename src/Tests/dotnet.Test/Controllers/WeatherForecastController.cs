@@ -13,16 +13,17 @@ namespace dotnet.Test.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        private readonly VipServiceFactory _vipServiceFactory;
 
-        public WeatherForecastController( )
+        public WeatherForecastController( VipServiceFactory vipServiceFactory)
         {
-
+            _vipServiceFactory = vipServiceFactory;
         }
 
         [HttpGet]
-        public string Get( [FromServices]IVipService vipService)
+        public string Get( )
         {
-            return vipService.GetHashCode().ToString();
+          return   _vipServiceFactory.GetInstence(0).GetHashCode().ToString();
         }
     }
 
